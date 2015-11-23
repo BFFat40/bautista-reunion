@@ -233,3 +233,14 @@ hr {
   66.666% { opacity: 1}
   100% { opacity: 0}
 }
+.site-footer {
+    height: 70px;
+    background: #101010 ;
+    text-align:center;
+    line-height: 70px;
+    width:100%;
+}
+
+.site-footer span a {
+    color: #fff;
+}
