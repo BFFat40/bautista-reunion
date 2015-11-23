@@ -1,0 +1,235 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,800);
+
+body {
+    line-height: 1.6em;
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: #fff;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 10px dashed #ccc;
+    margin: 1em 0;
+    padding: 0; 
+    border-color: #D32F2F;
+}
+.autocrop{ object-fit:cover;}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+#nb{
+    color:#ffffff;
+}
+#index_head, #index_start {
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    min-height:100vh;
+}
+.bautista{
+    color:#D32F2F;
+}
+.reunion{
+    color:#FFC107;
+}
+.year{
+    color:#388E3C;
+}
+.cardx{
+	background-color: #e2e2e2; 
+
+
+}
+#index-title {
+	margin-top: 10.55em;
+}
+
+#title-text {
+	font-size: 5.5em;
+}
+
+#title-sub {
+	color:rgba(255,255,255, 0.95);
+}
+#title-sub-sub {
+    margin-top: 20px;
+    color:rgba(255,255,255, 0.95);
+}
+
+#index_head {
+    background-color: #000;
+}
+
+#index_start {
+	padding-top: 25px;
+    background-color: #F2F2F2;
+    color: #000;
+
+}
+
+.body-card {
+	padding: 5%;
+	text-align: justify;
+	text-justify:interword;
+}
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 10;
+    background-image: url(../img/banderitas1.png);
+    background-size: cover;
+}
+.content{
+    z-index:11;
+}
+.btn-ghost {
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: transparent;
+    padding: 15px 35px 15px 35px;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 8s linear; /* for fading effect */
+}
+
+
+.card, .cardx{
+	background-color:#eeeeee;
+	-webkit-box-shadow: 4px 6px 5px -3px rgba(92,92,92,1);
+	-moz-box-shadow: 4px 6px 5px -3px rgba(92,92,92,1);
+	box-shadow: 4px 6px 5px -3px rgba(92,92,92,1);
+	min-height: 300px;
+    margin-bottom: 40px;
+
+}
+
+.second-row{
+    margin-bottom: 100px;
+}
+.fade:hover {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+ }
+
+.fade {
+  opacity: 0.5;
+}
+.button-small{
+    color: #fff !important;
+    word-spacing: 0.25em;
+   font-family: 'Open Sans', sans-serif;
+   text-transform: uppercase;
+   border: none;
+    line-height: 22px;
+    padding: 12px 13px 11px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    text-decoration: none;
+}
+.button-small:visited{
+      color: #fff;
+}
+.button-small{
+    padding: 6px 12px 5px;
+    font-size: 11px;
+    color: #fff;
+    text-shadow: none;
+}
+.button-small:hover{
+    color: rgba(255,255,255, 0.75);
+    text-decoration: none;
+    -webkit-box-shadow:inset 0 10px 20px rgba(255,255,255, 0.10);
+    -moz-box-shadow: inset 0 10px 20px rgba(255,255,255, 0.10);
+    box-shadow: inset 0 10px 20px rgba(255,255,255, 0.10);
+}
+.button-small:active {
+    -webkit-box-shadow: inset 0 2px 2px rgba(0,0,0, 0.3), inset 0 10px 20px rgba(0,0,0, 0.08);
+    -moz-box-shadow: inset 0 2px 2px rgba(0,0,0, 0.3), inset 0 10px 20px rgba(0,0,0, 0.08);
+    box-shadow: inset 0 2px 2px rgba(0,0,0, 0.3), inset 0 10px 20px rgba(0,0,0, 0.08);
+}
+.rounded3 {
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.grey_normal {
+    background: #5e5e5e;    
+}
+
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: -2;
+    height: 100%;
+    width: 100%;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background-image: url(../img/TBT1.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 24s infinite;
+-webkit-animation:fade 24s infinite;
+
+} 
+.slide2 {
+  background: url(../img/TBT2.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade2 24s infinite;
+-webkit-animation:fade2 24s infinite;
+}
+.slide3 {
+    background: url(../img/bff.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 24s infinite;
+-webkit-animation:fade3 24s infinite;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
