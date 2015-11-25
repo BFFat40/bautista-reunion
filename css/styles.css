@@ -59,15 +59,17 @@ hr {
 }
 
 #title-text {
-	font-size: 5.5em;
+	font-size: 5.7vw;
 }
 
 #title-sub {
 	color:rgba(255,255,255, 0.95);
+    font-size: 4vw;
 }
 #title-sub-sub {
     margin-top: 20px;
     color:rgba(255,255,255, 0.95);
+    font-size: 2vw;
 }
 
 #index_head {
